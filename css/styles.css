@@ -29,7 +29,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 94px; */
 }
 
 .list {
@@ -425,7 +424,6 @@ footer {
 
 .p-work-links {
   width: calc((100% - 60px) / 3);
-  border-bottom: 1px solid #EEEEEE;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -439,7 +437,7 @@ footer {
 }
 
 .p-title {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 4px;
 
   color: var(--title-text-color);
@@ -452,7 +450,7 @@ footer {
 
 .p-text {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
   color: var(--secondary-text-color);
 
@@ -461,7 +459,15 @@ footer {
 }
 
 .p-list {
-  margin-left: 24px;
-  margin-right: 24px;
+  /* margin-left: 24px;
+  margin-right: 24px; */
   text-align: left;
+}
+
+.p-bottom-side {
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+
+  padding: 20px 20px;
 }
