@@ -63,7 +63,7 @@ img {
   height: auto;
 }
 
-section {
+.section {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -333,7 +333,10 @@ footer {
 }
 
 .footer-info:hover,
-.footer-link:hover,
+.footer-link:hover {
+  color: var(--primary-white-color);
+}
+
 .footer-info:focus,
 .footer-link:focus {
   color: var(--accent-color);
@@ -358,9 +361,12 @@ footer {
   line-height: 1.71;
 }
 
-.f-white-text .link:hover,
 .f-white-text .link:focus {
   color: var(--accent-color);
+}
+
+.f-white-text .link:hover {
+  color: var(--primary-white-color);
 }
 
 /* кнопки портфолио */
@@ -470,4 +476,17 @@ footer {
   border-right: 1px solid #EEEEEE;
 
   padding: 20px 24px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
